@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f3">
+  <title>Happy Birthday, Big Brother!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input class="state-control" type="checkbox" id="envelope-open" aria-label="Open the envelope">
+  <input class="state-control" type="checkbox" id="letter-open" aria-label="Reveal the birthday letter">
+  <div class="page-decor" aria-hidden="true">
+    <div class="bunting"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    <div class="ribbon ribbon-one"></div><div class="ribbon ribbon-two"></div>
+    <div class="confetti confetti-one"></div><div class="confetti confetti-two"></div><div class="confetti confetti-three"></div><div class="confetti confetti-four"></div><div class="confetti confetti-five"></div><div class="confetti confetti-six"></div>
+    <div class="balloon balloon-blue"><i></i></div><div class="balloon balloon-pink"><i></i></div><div class="balloon balloon-yellow"><i></i></div><div class="balloon balloon-green"><i></i></div><div class="balloon balloon-purple"><i></i></div>
+  </div>
+
+  <header class="hero" id="top">
+    <div class="party-hat" aria-hidden="true">🎉</div>
+    <p class="eyebrow">A little celebration just for you</p>
+    <h1>Happy Birthday,<br><span>Big Brother!</span></h1>
+    <p class="hero-subtitle">Today is your day, so get ready for a little love, a little teasing, and lots of birthday magic.</p>
+    <div class="cake-scene" aria-label="A white and gold birthday cake with glowing candles">
+      <div class="cake-sparkle sparkle-a">✦</div><div class="cake-sparkle sparkle-b">✧</div><div class="cake-sparkle sparkle-c">✦</div>
+      <div class="candles"><span class="candle candle-one"><i></i></span><span class="candle candle-two"><i></i></span><span class="candle candle-three"><i></i></span></div>
+      <div class="cake cake-top"><span class="icing-drip"></span></div><div class="cake cake-middle"><span class="gold-line"></span><span class="icing-drip"></span></div><div class="cake cake-bottom"><span class="gold-line"></span><span class="icing-drip"></span></div><div class="cake-plate"></div>
+    </div>
+    <a class="primary-button" href="#envelope-section">Open your birthday surprise <span aria-hidden="true">↓</span></a>
+    <p class="tiny-note">Made with lots of birthday love</p>
+  </header>
+
+  <main>
+    <section class="letter-section section-pad" id="envelope-section">
+      <div class="section-heading"><p class="eyebrow">Something for you</p><h2>A little letter</h2><p>There's a message waiting inside. Go on, open it!</p></div>
+      <div class="envelope-stage">
+        <div class="letter-paper"><div class="letter-inner">
+          <p class="letter-kicker">To my favourite Big Brother</p><h3>Happy Birthday!</h3>
+          <p>First of all, congratulations on surviving another year of life with your amazing personality. Honestly, that deserves a trophy. Don't let this birthday make you too proud, though — you're still the same person I'm allowed to tease!</p>
+          <p>Jokes aside, I'm really glad to have you in my life. Thank you for being someone I can share moments with, laugh with, and remember in my own little way. I hope this new year brings you peaceful days, exciting opportunities, good health, and plenty of reasons to smile.</p>
+          <p>Keep being yourself, keep chasing the things that matter to you, and don't forget to take care of yourself along the way. You deserve good things, even on the days when life feels a bit difficult.</p>
+          <p>And yes, even though I tease you, I really do wish you the best. Don't get emotional now — I'll deny writing this if you tell anyone.</p>
+          <p class="letter-signoff">Happy Birthday, Big Brother!<br><span>With love, always.</span></p>
+        </div></div>
+        <div class="envelope"><div class="envelope-back"></div><div class="envelope-flap"></div><div class="envelope-front"></div><div class="wax-seal">B</div></div>
+      </div>
+      <div class="envelope-actions"><label class="primary-button open-envelope-button" for="envelope-open">Open the envelope <span aria-hidden="true">✉</span></label><label class="primary-button read-letter-button" for="letter-open">Read your letter <span aria-hidden="true">♡</span></label><p class="interaction-hint">Tap once to open the flap, then tap again to read the letter.</p></div>
+      <a class="text-link" href="#memories">Continue to memories ↓</a>
+    </section>
+
+    <section class="memories-section section-pad" id="memories">
+      <div class="section-heading"><p class="eyebrow">Little moments, big memories</p><h2>Our memory corner</h2><p>Six little spaces for moments worth keeping. Photos can be added later.</p></div>
+      <div class="polaroid-grid">
+        <figure class="polaroid tilt-left"><div class="photo-placeholder"><span>PHOTO 01</span><b>✦</b></div><figcaption>A moment to remember</figcaption></figure>
+        <figure class="polaroid tilt-right"><div class="photo-placeholder pastel-pink"><span>PHOTO 02</span><b>♡</b></div><figcaption>One of our silly moments</figcaption></figure>
+        <figure class="polaroid tilt-left-small"><div class="photo-placeholder pastel-yellow"><span>PHOTO 03</span><b>☼</b></div><figcaption>A day that made me smile</figcaption></figure>
+        <figure class="polaroid tilt-right-small"><div class="photo-placeholder pastel-green"><span>PHOTO 04</span><b>✧</b></div><figcaption>Proof we're a little chaotic</figcaption></figure>
+        <figure class="polaroid tilt-right"><div class="photo-placeholder pastel-purple"><span>PHOTO 05</span><b>★</b></div><figcaption>A memory worth keeping</figcaption></figure>
+        <figure class="polaroid tilt-left"><div class="photo-placeholder pastel-blue"><span>PHOTO 06</span><b>∞</b></div><figcaption>More memories to come</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="closing-section section-pad" id="closing"><div class="closing-card"><div class="closing-stars" aria-hidden="true">✦　✧　✦</div><p class="eyebrow">One last thing...</p><h2>Keep shining,<br>Big Brother.</h2><p>I hope this year is kinder to you, brings you closer to your dreams, and gives you plenty of moments that make you genuinely happy. No matter how much I tease you, I'm always wishing good things for you.</p><p class="closing-wish">Have the happiest birthday!</p><div class="closing-confetti" aria-hidden="true">🎊 ✨ 🎂 ✨ 🎊</div><a class="primary-button" href="#top">Back to the beginning ↑</a></div></section>
+  </main>
+  <footer><p>Made especially for your birthday <span aria-hidden="true">♡</span></p></footer>
+</body>
+</html>
